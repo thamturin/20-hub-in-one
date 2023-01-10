@@ -1,7 +1,7 @@
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 
-local lpg = gui:CreateCategory("thamturin - 20 hub cuc mup")
+local lpg = gui:CreateCategory("thamturin - 22 hub cuc mup")
 
 lpg:CreateButton("(Best Script De Choi) Neva Hub",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))() end)
 lpg:CreateButton("(Best Script De Choi) Hoho Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() end)
@@ -22,29 +22,11 @@ lpg:CreateButton("One X Hub",function() loadstring(game:HttpGet('https://raw.git
 lpg:CreateButton("Putaya Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Putaya/HITBOXKAK/main/PutayaFree'))() end)
 lpg:CreateButton("Zen Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))() end)
 lpg:CreateButton("Project Meow Hub",function() loadstring(game:HttpGet('https://rawscripts.net/raw/Project-Meow_421'))() end)
+lpg:CreateButton("GLord Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/GGhostVN/GhostLord/main/Main'))() end)
+lpg:CreateButton("(Khong Chon Team,Execute Luon) Chest Farm",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/autochest'))() end)
 
 lpg:CreateButton("(Dang Bi Ngu) Fusion Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))() end)
 
 lpg:CreateButton("(Dang Bi Ngu) MasterX Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/BlodyXHub/Xeniel_All/main/ForAll'))() end)
 
 lpg:CreateButton("(Dang Bi Ngu) Quartyz Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt'))() end)
-
-local req = (syn and syn.request) or (http and http.request) or http_request or request
-
-req(
-   {
-       Url = "http://127.0.0.1:6463/rpc?v=1",
-       Method = "POST",
-       Headers = {
-           ["Content-Type"] = "application/json",
-           ["origin"] = "https://discord.com",
-       },
-       Body = game:GetService("HttpService"):JSONEncode(
-           {
-               ["args"] = {
-                   ["code"] = "JPJzThTcJ7",
-               },
-               ["cmd"] = "INVITE_BROWSER",
-               ["nonce"] = "."
-           })
-   })
