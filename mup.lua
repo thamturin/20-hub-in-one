@@ -1,7 +1,7 @@
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 
-local lpg = gui:CreateCategory("thamturin - 22 hub cuc mup")
+local lpg = gui:CreateCategory("thamturin - 24 hub cuc mup")
 
 lpg:CreateButton("(Best Script De Choi) Neva Hub",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))() end)
 lpg:CreateButton("(Best Script De Choi) Hoho Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() end)
@@ -24,6 +24,8 @@ lpg:CreateButton("Zen Hub",function() loadstring(game:HttpGet('https://raw.githu
 lpg:CreateButton("Project Meow Hub",function() loadstring(game:HttpGet('https://rawscripts.net/raw/Project-Meow_421'))() end)
 lpg:CreateButton("GLord Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/GGhostVN/GhostLord/main/Main'))() end)
 lpg:CreateButton("(Khong Chon Team,Execute Luon) Chest Farm",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/autochest'))() end)
+lpg:CreateButton("StringX Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt'))() end)
+lpg:CreateButton("Rin Hub Beta",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/thamturin/RinHub/main/RinHub.lua'))() end)
 
 lpg:CreateButton("(Dang Bi Ngu) Fusion Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))() end)
 
